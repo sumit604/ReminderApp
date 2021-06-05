@@ -29,6 +29,16 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("20.723809523809525em")
                 .setHeight("10.438095238095238em")
                 .setCaption("Enter")
+                .onClick([
+                    {
+                        "desc":"Action 1",
+                        "type":"page",
+                        "target":"App.customer",
+                        "args":[true],
+                        "method":"switch",
+                        "event":1
+                    }
+                ])
             );
             
             return children;
