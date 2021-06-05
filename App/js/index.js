@@ -24,8 +24,10 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button3")
                 .setName("Enter")
-                .setLeft("24.38095238095238em")
-                .setTop("14.476190476190476em")
+                .setLeft("20.571428571428573em")
+                .setTop("10.666666666666666em")
+                .setWidth("20.723809523809525em")
+                .setHeight("10.438095238095238em")
                 .setCaption("Enter")
             );
             
