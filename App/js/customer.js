@@ -141,6 +141,43 @@ xui.Class('App.customer', 'xui.Module',{
                 "B3"
             );
             
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput76")
+                .setName("B4")
+                .setRequired(true)
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("13.028571428571428em")
+                .setHeight("3.7333333333333334em")
+                .setLabelPos("none")
+                .setType("listbox")
+                .setItems([
+                    {
+                        "id":"a",
+                        "caption":"Birthday",
+                        "imageClass":"xui-icon-number1"
+                    },
+                    {
+                        "id":"b",
+                        "caption":"Marriage Anniversary",
+                        "imageClass":"xui-icon-number2"
+                    },
+                    {
+                        "id":"c",
+                        "caption":"Engagement Anniversary",
+                        "imageClass":"xui-icon-number3"
+                    },
+                    {
+                        "id":"d",
+                        "caption":"item 4",
+                        "imageClass":"xui-icon-number4",
+                        "disabled":true
+                    }
+                ]),
+                "B4"
+            );
+            
             host.ctl_layout5.append(
                 xui.create("xui.UI.Label")
                 .setHost(host,"xui_ui_label1")
