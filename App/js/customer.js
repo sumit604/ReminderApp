@@ -167,12 +167,6 @@ xui.Class('App.customer', 'xui.Module',{
                         "id":"c",
                         "caption":"Engagement Anniversary",
                         "imageClass":"xui-icon-number3"
-                    },
-                    {
-                        "id":"d",
-                        "caption":"item 4",
-                        "imageClass":"xui-icon-number4",
-                        "disabled":true
                     }
                 ]),
                 "B4"
