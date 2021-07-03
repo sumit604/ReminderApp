@@ -86,6 +86,61 @@ xui.Class('App.customer', 'xui.Module',{
                 "main"
             );
             
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput38")
+                .setName("B5")
+                .setRequired(true)
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("13.028571428571428em")
+                .setHeight("3.7333333333333334em")
+                .setLabelPos("none")
+                .setType("date"),
+                "B5"
+            );
+            
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input2")
+                .setName("B1")
+                .setRequired(true)
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("13.028571428571428em")
+                .setHeight("3.8095238095238093em")
+                .setLabelPos("none")
+                .setMultiLines(true),
+                "B1"
+            );
+            
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput39")
+                .setName("B2")
+                .setRequired(true)
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("13.028571428571428em")
+                .setHeight("3.7333333333333334em")
+                .setLabelPos("none")
+                .setType("number"),
+                "B2"
+            );
+            
+            host.xui_ui_formlayout1.append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input3")
+                .setName("B3")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("13.028571428571428em")
+                .setHeight("3.7333333333333334em")
+                .setLabelPos("none")
+                .setMultiLines(true),
+                "B3"
+            );
+            
             host.ctl_layout5.append(
                 xui.create("xui.UI.Label")
                 .setHost(host,"xui_ui_label1")
@@ -97,6 +152,15 @@ xui.Class('App.customer', 'xui.Module',{
                 .setFontSize("2em")
                 .setFontWeight("900"),
                 "before"
+            );
+            
+            host.ctl_layout5.append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button9")
+                .setLeft("25.904761904761905em")
+                .setTop("22.857142857142858em")
+                .setCaption("Save"),
+                "main"
             );
             
             return children;
